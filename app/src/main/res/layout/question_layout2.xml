@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/noChoose"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtQue"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#e2e0e0"
+        android:text="Choose the sentence with the right word order"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtAns1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:text="Tom a lot of people invited"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp" />
+    <TextView
+        android:id="@+id/txtCheck1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9f9b9b"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtAns2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:text="Tom a lot of people invited"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp" />
+    <TextView
+        android:id="@+id/txtCheck2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9f9b9b"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtAns3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:text="Tom a lot of people invited"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp" />
+    <TextView
+        android:id="@+id/txtCheck3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9f9b9b"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtAns4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:text="Tom a lot of people invited"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp" />
+    <TextView
+        android:id="@+id/txtCheck4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9f9b9b"/>
+</LinearLayout>
